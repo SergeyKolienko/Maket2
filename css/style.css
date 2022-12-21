@@ -19,6 +19,10 @@ p {
   color: #757575;
 }
 
+.ingredient {
+  color: #2196f3;
+}
+
 .logo {
   color: var(--logo-color);
   font-family: Raleway, sans-serif;
