@@ -14,7 +14,10 @@ body {
   font-family: Roboto, sans-serif;
   letter-spacing: 0.03em;
 }
-
+/* Убираем маркеры */
+li {
+  list-style-type: none;
+}
 
 .wiw {
   color: #757575;
@@ -113,7 +116,4 @@ letter-spacing: 0.03em;
 button {
 cursor: pointer
 } 
-/* Убираем маркеры */
-li {
-  list-style-type: none;
-}
+
