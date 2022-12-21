@@ -1,0 +1,71 @@
+:root {
+  --primary-text-color: rgba(0, 0, , 0.8);
+  --title-text-color: #212121;
+  --accent-color: #2196F3;
+  --primary-white-color: #ffffff;
+  --logo-color:  #000000;
+  --color-nav-adress: #757575;
+}
+
+body {
+  background-color: #FFFFFF;
+  color: var(--primary-text-color);
+}
+
+p {
+  color: #757575;
+}
+
+
+.logo {
+  color: var(--logo-color);
+}
+.logo:hover {
+  color: var(--accent-color);
+}
+
+/* site nav */
+.site-nav .link {
+  color: var(--title-text-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+
+/* nav */
+.nav {
+  color: #757575;
+}
+
+.nav-adress {
+  color: var(--primary-white-color);
+}
+
+.nav-footer {
+  color: var(--color-nav-adress);
+}
+
+
+/* Hero */
+.hero-title {
+  color: var(--primary-white-color);
+}
+
+
+/* Section */
+.section-list {
+  color: var(--title-text-color);
+}
+
+/* Button */
+
+/* Убираем маркеры */
+li {
+  list-style-type: none; 
+  }
